@@ -7,7 +7,7 @@ let listaUsuario = [
     "marcia",
     "samuka"
 ]
-//Query Params
+//Query Params - Testes realizados em Aula.
 // Ex: localhost:3000/usuario?id=1
 app.get('/usuarios', (req, res) => {
     const {nome} = req.query;
